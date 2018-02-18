@@ -1,0 +1,14 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "number-leading-zero": "never",
+    "declaration-block-no-redundant-longhand-properties": null,
+    "selector-type-case": null,
+    "selector-type-no-unknown": null
+  },
+  "syntax": "scss"
+}

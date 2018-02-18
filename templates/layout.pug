@@ -1,0 +1,10 @@
+doctype html
+html(lang='en-UK')
+  head
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title= title
+    style= styles
+  body
+    block content
+    each item in files
+      script(src= item)
